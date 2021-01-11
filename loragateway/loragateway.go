@@ -18,7 +18,7 @@ import (
 const (
 	sdkClientName = "riot-gateway"
 	appID         = "riot_balloon_control_2020"
-	appAccessKey  = "ttn-account-v2.DW_xQtirzRPgUhcKeRVF8LtCfn2886M1o9jMqfSwAOs"
+	appAccessKey  = "INSERT HERE"
 )
 
 var client ttnsdk.Client // The LORA client
