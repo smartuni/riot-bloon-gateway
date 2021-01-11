@@ -1,0 +1,14 @@
+{
+    "clusters": [
+        {
+            "id": "hamburg_stadtpark",
+            "avg_temp": 0,
+            "avg_hum": 0,
+            "avg_pres": 0,
+            "balloons": [
+                {"id": "test_device"},
+                {"id": "ttgo"}
+            ]
+        }
+    ]
+}

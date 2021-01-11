@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>0</x>
+      <y>360</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Gateway-Cloud</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>720</x>
+      <y>270</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Gateway-LORA
+(TheThingsNetwork)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>720</x>
+      <y>450</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Gateway-COAP</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>360</x>
+      <y>360</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Connector</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>310</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=()-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>300</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=[v]-(
+fetch values
+
+
+
+</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>490</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=()-[&gt;]</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>440</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=[^]-(
+
+
+
+
+fetch values</panel_attributes>
+    <additional_attributes>10.0;20.0;10.0;60.0;140.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>400</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=()-[&lt;]</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>390</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=[&gt;]-(</panel_attributes>
+    <additional_attributes>80.0;20.0;20.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1090</x>
+      <y>450</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Gateway-COAP</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>980</x>
+      <y>480</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=()-[&gt;]
+COAP
+resources
+
+(/sens/temp/,
+/sens/hum/,
+/sens/press/</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>480</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-(</panel_attributes>
+    <additional_attributes>10.0;20.0;60.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1090</x>
+      <y>270</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+TTN node</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>980</x>
+      <y>300</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=()-[&gt;]
+MQTT</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>300</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=[&lt;]-(</panel_attributes>
+    <additional_attributes>10.0;20.0;60.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>30</y>
+      <w>460</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>halign=left
+Both gateways publish tot he Cloud Database depending on 
+which connection is used. When the software is started, the 
+gateway used must be configured using an environment 
+variable:
+
+GATEWAY_TYPE=LORA
+GATEWAY_TYPE=COAP
+
+with corresponding configuration
+(URIs for COAP nodes, TheThingsNetwork node EUIs)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
